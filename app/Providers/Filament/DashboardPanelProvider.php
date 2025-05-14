@@ -53,6 +53,7 @@ class DashboardPanelProvider extends PanelProvider
             ])
             ->authMiddleware([
                 Authenticate::class,
-            ]);
+            ])
+            ->profile(isSimple: false);
     }
 }
