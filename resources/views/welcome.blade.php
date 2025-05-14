@@ -49,7 +49,7 @@
                     @endauth
 
                         <a
-                            href="{{ route('login') }}"
+                            href="{{ url('/dashboard') }}"
                             class="inline-block px-5 py-1.5 text-[#1b1b18] border border-transparent hover:border-[#19140035] rounded-sm text-sm leading-normal"
                         >
                             {{ __('Dashboard') }}
