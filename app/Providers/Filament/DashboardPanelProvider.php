@@ -23,6 +23,9 @@ use Joaopaulolndev\FilamentEditProfile\Pages\EditProfilePage;
 
 class DashboardPanelProvider extends PanelProvider
 {
+    /**
+     * @throws \Exception
+     */
     public function panel(Panel $panel): Panel
     {
         return $panel
