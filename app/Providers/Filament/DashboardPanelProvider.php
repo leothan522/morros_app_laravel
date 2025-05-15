@@ -36,6 +36,7 @@ class DashboardPanelProvider extends PanelProvider
             ->passwordReset()
             ->emailVerification()
             ->profile(isSimple: false)
+            ->favicon(asset('img/favicons/favicon-32x32.png'))
             ->colors([
                 'primary' => Color::Amber,
             ])
